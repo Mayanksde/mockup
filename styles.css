@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper {
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.container {
+  display: flex;
+  gap: 2.4rem;
+  height: 100%;
+  width: fit-content;
+
+  border: 8px solid rgb(232, 232, 232);
+  position: relative;
+  padding: 0.8rem;
+  margin: auto;
+  border-radius: 5px;
+}
+nav {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+}
+#welcome {
+  margin-left: 0.5rem;
+}
+
+nav svg:hover {
+  background-color: #3003a2;
+  border-radius: 0.7rem;
+  text-align: center;
+  padding: 0.1rem;
+  justify-content: center;
+}
+
+.searchbtn {
+  margin-bottom: 1.4rem;
+}
+.homecontainer {
+  background-color: #5622dc;
+  border-radius: 0.7rem;
+  text-align: center;
+  padding: 0.1rem;
+  justify-content: center;
+}
+nav img {
+  width: 50px;
+  height: 50px;
+}
+header {
+  display: none;
+}
+footer {
+  display: none;
+}
+.box-1 {
+  width: 390px;
+  height: 100%;
+
+  background-color: rgb(247, 247, 247);
+  padding: 1.5rem;
+}
+.HiMike-head {
+  font-size: 1.8rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+}
+
+.box-heading-description {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+.today {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.today-doller {
+  font-size: 1.7rem;
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+}
+.doller {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.img-heading {
+  display: flex;
+}
+svg {
+  cursor: pointer;
+}
+.heading-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.recent {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+.dropbtn {
+  background-color: #5622dc;
+  color: white;
+  padding: 0.4rem;
+  width: 8rem;
+  height: 2.6rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 1.1rem;
+  border-radius: 0.6rem;
+}
+.dropbtn:hover {
+  background-color: rgb(3, 3, 129);
+}
+
+.dropbtnRes {
+  display: none;
+}
+.box1-bottom {
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* box 2 ************************************* */
+
+.box-2 {
+  width: 500px;
+  height: 100%;
+  padding: 1.5rem;
+}
+.blue-head {
+  color: blue;
+  font-weight: bold;
+}
+.black-head {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.box2Goal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.2rem;
+}
+.box2Goal div {
+  border-bottom: 1px solid rgb(8, 8, 154);
+  padding: 0.4rem;
+  width: fit-content;
+}
+.resflex {
+  display: none;
+}
+.box2GoalData {
+  width: 140px;
+  border-bottom: 1px solid rgb(4, 4, 236);
+  padding: 0.23rem;
+}
+.data {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.contributer {
+  margin-top: 1.4rem;
+}
+.contributer-head {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.colorPoint {
+  display: flex;
+  margin-top: 0.5rem;
+  justify-content: space-between;
+}
+.colorPointData p span {
+  font-weight: bolder;
+}
+.chartCanvas {
+  padding: 15px;
+}
+#howDo {
+  margin-top: 1.8rem;
+  margin-bottom: 0.4rem;
+}
+.box2Bottom {
+  margin-top: 0.8rem;
+  display: flex;
+}
+.box2GoalData {
+  margin-bottom: 1.2rem;
+}
+#box2GoalDataId {
+  width: 130px;
+  border-bottom: 1px solid rgb(191, 191, 191);
+  padding-bottom: 0.8rem;
+  padding-top: 0.7rem;
+}
+.smallbox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.smallbox p {
+  font-size: 0.7rem;
+}
+.smallbox p span {
+  font-weight: bold;
+}
+.smallbox div {
+  display: flex;
+  gap: 1rem;
+}
+.bluepoint {
+  width: 15px;
+  height: 10px;
+  border-radius: 2rem;
+  background-color: #1f0268;
+}
+.bluepoint2 {
+  width: 15px;
+  height: 10px;
+  border-radius: 2rem;
+  background-color: #5622dc;
+}
+.bluepoint3 {
+  width: 15px;
+  height: 10px;
+  border-radius: 2rem;
+  background-color: #6cb7e0;
+}
+.box2BottomRight {
+  width: 110px;
+  height: 110px;
+  display: flex;
+  gap: 1.5rem;
+}
+.box2BottomRight canvas {
+  width: 6rem;
+  height: 6rem;
+}
+
+.allDoughnut p {
+  text-align: center;
+}
+
+.charts2 {
+  display: none;
+}
+
+/* ************************     box-3   ******************************* */
+.box-3 {
+  width: 280px;
+  height: 100%;
+  padding: 1.5rem;
+}
+.upper-part {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.retirement {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.contribution {
+  font-weight: 500;
+  margin-top: 1.1rem;
+  font-size: 0.9rem;
+}
+
+.slider {
+  appearance: none;
+  height: 0.3rem;
+  width: 70%;
+  background-color: rgb(125, 184, 233);
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px black;
+  background-color: white;
+}
+
+.slider2 {
+  appearance: none;
+  height: 0.3rem;
+  width: 70%;
+  background-color: rgb(125, 184, 233);
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.slider2::-webkit-slider-thumb {
+  appearance: none;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px black;
+  background-color: white;
+}
+
+.slidecontainer {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-part {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.slidecontainer {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.des1 {
+  border-top: 1px solid rgb(191, 191, 191);
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+.des {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.update {
+  background-color: #5622dc;
+  color: white;
+  font-size: 1rem;
+  width: 100%;
+  height: 2.8rem;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin-top: 1.1rem;
+  border-radius: 0.6rem;
+  margin-bottom: 1.6rem;
+}
+.update:hover {
+  background-color: #1f0268;
+}
+.viewHelp:hover {
+  color: #1f0268;
+  cursor: pointer;
+}
+#learnmore:hover {
+  color: #1f0268;
+  cursor: pointer;
+}
+.viewHelp {
+  text-align: center;
+  font-weight: 500;
+  color: #5622dc;
+}
+.box3LastBottom {
+  border-left: 2px solid rgb(4, 4, 236);
+  margin-top: 2rem;
+  padding-left: 1rem;
+}
+#learnmore {
+  font-weight: 500;
+  color: #5622dc;
+}
